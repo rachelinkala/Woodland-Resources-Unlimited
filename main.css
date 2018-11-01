@@ -4,7 +4,9 @@ body {
 
 /* navbar */
 #navbar {
-  background-color: black;  
+  background-color: black; 
+  padding-top: 7px;
+  padding-bottom: 7px; 
 }
 
 #navlinks a:hover {
@@ -18,7 +20,7 @@ body {
 .item {
   color: white !important;
   font-size: 20px;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cabin', sans-serif;
   border-bottom: 3px solid transparent;
 }
 
@@ -38,7 +40,7 @@ body {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Lora', serif  !important;
+  font-family: 'Cabin', sans-serif;
   font-size: 50px !important;
   color: white !important;
 }
@@ -73,6 +75,24 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 4em;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 20px;
+}
+
+/* footer */
+
+#footer {
+  background-color: black;  
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.copyright {
+  color: white !important;
+  font-size: 15px;
+  font-family: 'Cabin', sans-serif;
+  margin-left: -18%;
 }
