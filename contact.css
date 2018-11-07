@@ -35,12 +35,12 @@
 }
 
 .c-img {
-  width: 450px;
-  height: 600px;
+  width: 70%;
+  height: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  image-orientation: 90deg;
+  transform: rotate(90deg);
 }
 
 .c-t-image {
@@ -51,4 +51,5 @@
 .contact-image {
   background: #f2f4f7;
   padding: 1%;
+  width: 44%;
 }
