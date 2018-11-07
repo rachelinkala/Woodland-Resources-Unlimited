@@ -74,9 +74,11 @@ body {
 .grid-text {
   margin-left: auto;
   margin-right: auto;
-  width: 4em;
   font-family: 'Cabin', sans-serif;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
 }
 
 /* footer */
@@ -90,9 +92,15 @@ body {
   padding-bottom: 7px;
 }
 
+#right-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
 .copyright {
   color: white !important;
   font-size: 15px;
   font-family: 'Cabin', sans-serif;
   margin-left: -18%;
+  padding-left: 50px;
 }
