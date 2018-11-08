@@ -55,3 +55,7 @@
   padding: 1%;
   width: 44%;
 }
+
+.fa-phone {
+  transform: rotate(90deg);
+}

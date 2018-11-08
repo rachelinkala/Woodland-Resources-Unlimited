@@ -104,3 +104,7 @@ body {
   margin-left: -18%;
   padding-left: 50px;
 }
+
+.fa-phone {
+  transform: rotate(90deg);
+}

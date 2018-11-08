@@ -104,3 +104,7 @@
   font-family: 'Cabin', sans-serif !important;
   font-size: 20px;
 }
+
+.fa-phone {
+  transform: rotate(90deg);
+}
