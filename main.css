@@ -87,7 +87,6 @@ body {
   background-color: black;  
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
   padding-top: 7px;
   padding-bottom: 7px;
 }
