@@ -1,12 +1,44 @@
-.contact-container {
-  margin-top: 70px;
+.contact-page {
+  margin-top: 85px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.column {
+  float: left;
   width: 100%;
+  background: #f2f4f7;
+}
+
+.row {
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .contact-header {
   font-family: 'Vast Shadow', cursive;
   font-size: 40px;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 26px;
+  text-align: center;
+}
+
+.sub-header {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.s-text {
+  font-size: 26px;
   text-align: center;
 }
 
@@ -57,13 +89,42 @@ textarea {
   padding: 10px;
 }
 
+/* input,
+textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 16px;
+  width: 100%;
+  font-size: 20px;
+} */
+
 .message-field {
-  height: 10em;
   padding-right: 10px;
   padding-left: 10px;
 }
 
+textarea {
+  height: 10em;
+}
+
+/* textarea {
+  height: 4em;
+} */
+
 input:focus {
+  outline: none;
+  border-color: #4f7756;
+  /* border-color: #717a73; */
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f7756;
+}
+
+textarea:focus {
   outline: none;
   border-color: #4f7756;
   /* border-color: #717a73; */
@@ -72,7 +133,6 @@ input:focus {
 textarea:focus {
   outline: none;
   border-color: #4f7756;
-  /* border-color: #717a73; */
 }
 
 .submit {
@@ -84,7 +144,7 @@ textarea:focus {
   text-transform: uppercase;
   padding: 20px;
   width: 50%;
-  margin-top: 110px;
+  /* margin-top: 110px; */
 }
 
 .submit:hover {
@@ -95,51 +155,3 @@ textarea:focus {
 .submit-align {
   text-align: center;
 }
-
-/* .contact-p-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 37%;
-  background: #f2f4f7;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.contact-p {
-  font-family: 'Cabin', sans-serif;
-  font-size: 25px;
-  text-align: center;
-}
-
-.second-header {
-  font-family: 'Cabin', sans-serif;
-  font-size: 35px;
-}
-
-.c-img {
-  width: 89%;
-  height: 89%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  transform: rotate(90deg);
-}
-
-.c-t-image {
-  width: 348px;
-  height: 213px;
-}
-
-.contact-image {
-  background: #f2f4f7;
-  padding: 1%;
-  width: 44%;
-}
-
-.fa-phone {
-  transform: rotate(90deg);
-} */
