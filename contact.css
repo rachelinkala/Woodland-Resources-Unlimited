@@ -101,36 +101,26 @@ textarea {
   border-radius: 10px;
 }
 
-.message-field {
-  padding-right: 10px;
-  padding-left: 10px;
-  font-size: 18px;
+input:focus {
+  outline: none;
+  border: 3px solid #4f7756 !important;
+  /* border-color: #717a73; */
 }
 
 textarea {
   height: 10em;
 }
 
-input:focus {
+textarea:focus {
   outline: none;
-  border-color: #4f7756;
+  border-color: #4f7756 !important;
   /* border-color: #717a73; */
 }
 
-input:focus {
-  outline: none;
-  border-color: #4f7756;
-}
-
-textarea:focus {
-  outline: none;
-  border-color: #4f7756;
-  /* border-color: #717a73; */
-}
-
-textarea:focus {
-  outline: none;
-  border-color: #4f7756;
+.message-field {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 18px;
 }
 
 .submit {
