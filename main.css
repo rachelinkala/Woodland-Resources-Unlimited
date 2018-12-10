@@ -45,7 +45,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Cabin', sans-serif;
-  font-size: 50px !important;
+  font-size: 58px !important;
   color: white !important;
 }
 
@@ -94,11 +94,14 @@ body {
   align-items: center;
   padding-top: 7px;
   padding-bottom: 7px;
+  margin-right: -1%;
+  margin-left: -1%;
 }
 
 #right-footer {
   display: flex;
   justify-content: space-around;
+  margin-right: 1%;
 }
 
 .copyright {

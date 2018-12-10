@@ -38,13 +38,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Cabin', sans-serif;
-  font-size: 50px !important;
+  font-size: 58px !important;
   color: white !important;
 }
+
 /* services content */
-.blurb {
-  margin-bottom: 2rem;
-}
 
 .blurb-text {
   font-family: 'Cabin', sans-serif !important;
@@ -56,45 +54,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#servicegrid {
-  width: 90%;
-  display: flex;
-  align-content: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-/* .column {
-  display: flex;
-  justify-content: center;
-  width: 610px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-#top-row {
-  width: 87rem;
-  background: #f2f4f7;
-}
-
-#cardss {
-  width: 43rem !important;
-  background: #f2f4f7;
-  margin: -2%;
-}
-
-.row1 {
-  padding-bottom: 3rem !important;
-}
-
-.row23 {
-  padding-bottom: 3rem !important;
-  width: 100%;
-  display: flex;
 }
 
 .header {
