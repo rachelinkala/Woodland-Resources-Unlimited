@@ -29,7 +29,9 @@ body {
 /* home page hero image */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/forest2.jpg");
-  height: 55%;
+  /* height: 55%; */
+  height: 450px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +88,8 @@ body {
 /* footer */
 
 #footer {
-  background-color: black;  
+  background-color: black;
+  background-size: cover;  
   display: flex;
   align-items: center;
   padding-top: 7px;
