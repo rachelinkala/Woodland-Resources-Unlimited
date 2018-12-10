@@ -59,11 +59,14 @@
 .header {
   font-family: 'Cabin', sans-serif !important;
   font-size: 25px !important;
+  font-weight: bold;
 }
 
 .s-p {
-  font-family: 'Cabin', sans-serif !important;
+  /* font-family: 'Noto Serif SC', serif !important; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  font-weight: lighter;
 }
 
 .fa-phone {
