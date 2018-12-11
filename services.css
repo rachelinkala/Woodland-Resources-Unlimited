@@ -69,23 +69,13 @@
   font-weight: lighter;
 }
 
-.fa-phone {
-  transform: rotate(90deg);
-}
-
-/* test */
-
 #service-container {
   margin-top: 2%;
 }
 
 .column {
-  float: left;
+  /* float: left; */
   width: 100%;
-}
-
-.transparent{
-  background:rgba(255,255,255,0.5);
 }
 
 .row {
@@ -104,4 +94,8 @@
 #footer {
   margin-right: -3%;
   margin-left: -1%;
+}
+
+.fa-phone {
+  transform: rotate(90deg);
 }
