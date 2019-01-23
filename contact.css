@@ -1,21 +1,63 @@
 body {
-  background-image: url(images/bark-chopped-wood.jpg) !important;
-  background-size: 100%;
+  background-color: #dcdde2;
+  width: 100%;
+  height: 100%;
 }
 
-.contact-page {
-  margin-top: 85px;
+/* hero */
+.hero-image-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/bark-chopped-wood.jpg");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 102%;
+  margin-left: -1%;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: 'Cabin', sans-serif;
+  font-size: 65px !important;
+  color: white !important;
+  letter-spacing: 3px;
+}
+
+.hero-subtext {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Cabin', sans-serif;
+  font-size: 30px !important;
+  color: white !important;
+  letter-spacing: normal !important;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-container {
+  margin-top: 2%;
+}
+
+.contact-grid {
+  background: #f2f4f7;
+  padding: 3%;
 }
 
 .column {
-  float: left;
   width: 100%;
   /* background: #f2f4f7; */
-}
-
-.transparent{
-  background:rgba(255,255,255,0.5);
 }
 
 .row {
@@ -28,31 +70,23 @@ body {
   clear: both;
 }
 
-.contact-header {
-  font-family: 'Vast Shadow', cursive;
-  font-size: 40px;
-  margin-bottom: 1%;
-  text-align: center;
-}
-
-.contact-text {
-  font-size: 26px;
-  text-align: center;
-}
-
 .sub-header {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
-  font-family: 'Vast Shadow', cursive;
+  /* font-family: 'Vast Shadow', cursive; */
+  font-family: 'Cabin', sans-serif !important;
+  font-weight: bold;
 }
 
 .s-text {
-  font-size: 26px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 form {
-  max-width: 550px;
+  max-width: 790px;
   margin: 0 auto 50px;
 }
 
@@ -93,18 +127,49 @@ span {
 
 input,
 textarea {
-  border: 3px solid black !important;
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
-  background: #e8e9ea;
-  border-radius: 10px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #ccc;
+  /* border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent; */
+}
+
+.effect-17 ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0; 
+  height: 2px;
+  background-color: #3399FF;
+  transition: 0.4s;
+}
+.effect-17:focus ~ .focus-border,
+.has-content.effect-17 ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+.effect-17 ~ label {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 9px;
+  color: #aaa;
+  transition: 0.3s;
+  z-index: -1;
+  letter-spacing: 0.5px;
+}
+.effect-17:focus ~ label, .has-content.effect-17 ~ label {
+  top: -16px; 
+  font-size: 12px; 
+  color: #3399FF; 
+  transition: 0.3s;
 }
 
 input:focus {
   outline: none;
-  border: 3px solid #4f7756 !important;
-  /* border-color: #717a73; */
 }
 
 textarea {
@@ -113,8 +178,6 @@ textarea {
 
 textarea:focus {
   outline: none;
-  border-color: #4f7756 !important;
-  /* border-color: #717a73; */
 }
 
 .message-field {

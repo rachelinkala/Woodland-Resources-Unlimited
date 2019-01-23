@@ -27,7 +27,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 }
 
@@ -38,8 +37,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Cabin', sans-serif;
-  font-size: 58px !important;
+  font-size: 65px !important;
   color: white !important;
+  letter-spacing: 3px;
 }
 
 /* services content */

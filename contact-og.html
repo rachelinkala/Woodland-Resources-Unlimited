@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Logan's Website </title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:600|Vast+Shadow" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="ui large top fixed hidden pointing menu" id="navbar">
+      <div class="ui container fluid">
+        <a href="index.html" class="item">Woodland Resources Unlimited</a>
+        <div class="right menu" id="navlinks">
+          <a href="services.html" class="item">Services</a>
+          <a href="contact.html" class="item">Contact</a>
+        </div>
+      </div>
+    </div>
+    <!-- main content -->
+    <div class="contact-page">
+      <div class="ui grid">
+        <div class="ui stackable equal width row">
+          <div class="ui column">
+            <div class= "ui padded grid">
+              <div class="ui transparent row">
+                <div class="ui column">
+                  <p class="contact-header"> Contact Logan </p>
+                  <!-- <p class='contact-text'>Email: woodlandresourcesunlimited@gmail.com</p> -->
+                  <p class='contact-text'>Phone: 218-251-3670</p>
+                  <br />
+                  <p class="sub-header">Service Area:</p>
+                  <p class="s-text">Based out of Motley, Minnesota and servicing the greater Central Minnesota Region. (List names of surrounding cities)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ui column">
+            <div class="ui padded grid">
+              <div class="ui transparent row">
+                <div class="ui column">
+                  <p class="sub-header">How Can I Help You?</p>
+                  <form class="form" action="https://formspree.io/woodlandresourcesunlimited@gmail.com" method="POST">
+
+                    <label class="name-field"><span>First Name:</span>
+                    <input type="text" name="firstname" required></label>
+
+                    <label class="name-field"><span>Last Name:</span>
+                    <input type="text" name="lastname" required></label>
+
+                    <label class="contact-field"><span>Email:</span>
+                    <input type="email" name="_replyto" required></label>
+
+                    <label class="contact-field"><span>Phone:</span>
+                    <input type="text" name="phone" required></label>
+
+                    <label class="address-field"><span>Street:</span>
+                    <input type="text" name="street"></label>
+
+                    <label class="address-field"><span>City:</span>
+                    <input type="text" name="city"></label>
+                    
+                    <label class="state-field"><span>State:</span>
+                    <input type="text" name="state"></label>
+
+                    <label class="state-field"><span>ZIP Code:</span>
+                    <input type="text" name="zipcode"></label>
+
+                    <label class="message-field"><span>Message:</span>
+                    <textarea type="text" name="message" required></textarea></label>
+                    <br />
+                    
+                    <div class="submit-align">
+                      <input class="submit" type="submit" value="Send">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="ui large bottom hidden menu" id="footer">
+      <div class="ui container fluid">
+        <a href="index.html" class="item">Woodland Resources Unlimited</a>
+        <div class="right menu" id="right-footer">
+          <p class="copyright"><i class="fa fa-phone"></i>218-251-3670</p>
+          <br />
+          <p class="copyright"> © Rachel Inkala </p>
+        </div>
+      </div>
+    </div>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+
+  </body>
+</html>
