@@ -23,9 +23,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Cabin', sans-serif;
-  font-size: 65px !important;
+  font-size: 63px !important;
   color: white !important;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .hero-subtext {
