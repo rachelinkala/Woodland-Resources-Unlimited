@@ -112,6 +112,7 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 17px;
+  text-transform: uppercase;
 }
 
 /* footer */
