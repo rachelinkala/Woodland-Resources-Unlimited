@@ -51,6 +51,10 @@
   color: black;
 }
 
+#upper-blurb-text {
+  text-transform: uppercase;
+}
+
 .description {
   display: flex;
   flex-direction: column;
@@ -60,12 +64,12 @@
 .header {
   font-family: 'Cabin', sans-serif !important;
   font-size: 25px !important;
-  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .s-p {
-  /* font-family: 'Noto Serif SC', serif !important; */
   font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Cabin', sans-serif !important; */
   font-size: 20px;
   font-weight: lighter;
 }
