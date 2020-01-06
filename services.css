@@ -32,6 +32,8 @@
 
 #upper-blurb-text {
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .description {
@@ -44,6 +46,7 @@
   font-family: 'Cabin', sans-serif !important;
   font-size: 25px !important;
   text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .s-p {
