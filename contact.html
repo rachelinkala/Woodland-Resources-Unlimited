@@ -97,7 +97,7 @@
 
               <div class="input-box">
                 <label>Message</label>
-                <textarea class="input" type="text" name="message" placeholder=""></textarea>
+                <textarea rows="8" class="input" type="text" name="message" placeholder=""></textarea>
                 <span class="focus-border"></span>
               </div>
                 
@@ -138,6 +138,14 @@
 			    }
 		    })
 	    });
+    </script>
+    <script>
+      // $('textarea').autoResize();
+      $("textarea").keyup(function(e) {
+          while($(this).outerHeight() < this.scrollHeight + parseFloat($(this).css("borderTopWidth")) + parseFloat($(this).css("borderBottomWidth"))) {
+              $(this).height($(this).height()+1);
+          };
+      });
     </script>
 
   </body>

@@ -114,10 +114,6 @@ input:focus {
   outline: none;
 }
 
-/* textarea {
-  height: 10em;
-} */
-
 textarea:focus {
   outline: none;
 }
